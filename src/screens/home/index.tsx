@@ -30,7 +30,7 @@ export const Home = () => {
             }}
             colors={['#424242', '#131313']}
          >
-            <View style={styles.cabecalho}>
+            <View style={styles.header}>
                <Text style={styles.title}>Feito para você</Text>
                <TouchableOpacity style={styles.img}>
                   <Image source={Bell} />
@@ -97,29 +97,29 @@ export const Home = () => {
                   </View>
                </View>
             </ScrollView>
-            <View style={styles.barra_botton}>
+            <View style={styles.footer}>
                <View>
                   <TouchableOpacity>
                      <Image source={Home_icon} />
-                     <Text style={styles.text_botton}>Home</Text>
+                     <Text style={styles.text_footer}>Home</Text>
                   </TouchableOpacity>
                </View>
                <View>
                   <TouchableOpacity>
                      <Image source={Search} />
-                     <Text style={styles.text_botton}>Busca</Text>
+                     <Text style={styles.text_footer}>Busca</Text>
                   </TouchableOpacity>
                </View>
                <View>
                   <TouchableOpacity>
                      <Image source={Library} />
-                     <Text style={styles.text_botton}>Playlists</Text>
+                     <Text style={styles.text_footer}>Playlists</Text>
                   </TouchableOpacity>
                </View>
                <View>
                   <TouchableOpacity>
                      <Image source={Premium} />
-                     <Text style={styles.text_botton}>Premium</Text>
+                     <Text style={styles.text_footer}>Premium</Text>
                   </TouchableOpacity>
                </View>
             </View>

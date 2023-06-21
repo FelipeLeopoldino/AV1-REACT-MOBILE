@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
       marginRight: 36,
       marginLeft: 27
    },
-   cabecalho: {
+   header: {
       flexDirection: 'row',
       textAlign: 'center',
       alignItems: 'center',
@@ -71,7 +71,7 @@ export const styles = StyleSheet.create({
    artistas: {
       flexDirection: 'row'
    },
-   barra_botton: {
+   footer: {
       position: 'absolute',
       bottom: 0,
       height: 90,
@@ -82,7 +82,7 @@ export const styles = StyleSheet.create({
       textAlign: 'center',
       backgroundColor: 'rgba(19, 19, 19, .6)'
    },
-   text_botton: {
+   text_footer: {
       color: '#b8b7b5',
       fontSize: 12,
       textAlign: 'center',
