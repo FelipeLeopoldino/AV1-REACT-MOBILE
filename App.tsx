@@ -9,8 +9,8 @@ export default function App() {
       <View style={styles.container}>
          {/* <Loading /> */}
          {/* <Login /> */}
-         {/* <Home /> */}
-         <Login2 />
+         <Home />
+         {/* <Login2 /> */}
       </View>
    )
 }

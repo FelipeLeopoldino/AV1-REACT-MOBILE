@@ -30,20 +30,20 @@ export const Home = () => {
             }}
             colors={['#424242', '#131313']}
          >
-            <ScrollView>
-               <View style={styles.cabecalho}>
-                  <Text style={styles.title}>Feito para você</Text>
-                  <TouchableOpacity style={styles.img}>
-                     <Image source={Bell} />
-                  </TouchableOpacity>
-                  <TouchableOpacity style={styles.img}>
-                     <Image source={History} />
-                  </TouchableOpacity>
-                  <TouchableOpacity style={styles.img}>
-                     <Image source={Settings} />
-                  </TouchableOpacity>
-               </View>
+            <View style={styles.cabecalho}>
+               <Text style={styles.title}>Feito para você</Text>
+               <TouchableOpacity style={styles.img}>
+                  <Image source={Bell} />
+               </TouchableOpacity>
+               <TouchableOpacity style={styles.img}>
+                  <Image source={History} />
+               </TouchableOpacity>
+               <TouchableOpacity style={styles.img}>
+                  <Image source={Settings} />
+               </TouchableOpacity>
+            </View>
 
+            <ScrollView>
                <View style={styles.playlist}>
                   <View style={styles.disco1}>
                      <Image source={Guns1} />
