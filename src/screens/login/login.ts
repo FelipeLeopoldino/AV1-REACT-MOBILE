@@ -21,7 +21,6 @@ export const styles = StyleSheet.create({
       height: 54,
       width: 384,
       alignItems: 'center',
-      textAlign: 'center',
       justifyContent: 'center'
    },
    text_btn_free: {
@@ -35,7 +34,6 @@ export const styles = StyleSheet.create({
       width: 384,
       flexDirection: 'row',
       alignItems: 'center',
-      textAlign: 'center',
       justifyContent: 'center',
       gap: 10,
       borderWidth: 1,

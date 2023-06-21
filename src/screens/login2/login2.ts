@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
       height: 50,
       marginTop: 4,
       borderRadius: 3,
-      color:'#fff'
+      color: '#fff'
    },
    senha: {
       marginBottom: 50
