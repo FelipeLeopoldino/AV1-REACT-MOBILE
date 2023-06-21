@@ -13,8 +13,8 @@ export const Login = () => {
          <Text style={styles.title}>
             Milhares de músicas de Graça no Spotify
          </Text>
-         <TouchableOpacity style={styles.btn_free}>
-            <Text>Entre de graça</Text>
+         <TouchableOpacity style={styles.btn_free} >
+            <Text style={styles.text_btn_free}>Entre de graça</Text>
          </TouchableOpacity>
          <TouchableOpacity style={styles.btn}>
             <Image source={Celular} />

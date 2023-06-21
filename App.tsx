@@ -7,9 +7,9 @@ import { Login2 } from './src/screens/login2'
 export default function App() {
    return (
       <View style={styles.container}>
-         <Loading />
+         {/* <Loading /> */}
          {/* <Login /> */}
-         {/* <Home /> */}
+         <Home />
          {/* <Login2 /> */}
       </View>
    )

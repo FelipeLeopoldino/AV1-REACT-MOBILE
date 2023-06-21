@@ -30,7 +30,6 @@ export const styles = StyleSheet.create({
    },
    btn: {
       borderRadius: 50,
-      marginHorizontal: 15,
       marginTop: 27,
       height: 54,
       width: 384,
@@ -43,7 +42,8 @@ export const styles = StyleSheet.create({
       borderColor: '#fff'
    },
    textStyle: {
-      color: '#fff'
+      color: '#fff',
+      fontSize: 20
    },
    conta: {
       color: '#fff',
